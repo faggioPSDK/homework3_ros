@@ -29,8 +29,8 @@ Attenzione! Se necessario modificare il path per la ricerca della cartella ORB_S
 
 ### Preview
 Una volta avviato lo script `run.sh` compariranno le finestre Map Viewer, Current Frame e un terminale per la bag nel quale bisogna premere spazio (premere la space-bar) per passare da pause a running.
-<img src="screenshot/run_bag.png" width="800">
-<img src="screenshot/run_bag1.png" width="800">
+<img src="screenshots/run_bag.png" width="800">
+<img src="screenshots/run_bag1.png" width="800">
 Successivamente occorre attendere che la bag venga eseguita fino alla fine, dopodiché usare la combinazione di tasti `Ctrl+C` per chiudere lo script orb_slam (terminale in basso a sinistra) e permettere al software di salvare la mappa.
 
 ```sh
@@ -38,7 +38,7 @@ $ pcl_viewer pointcloud.pcd
 ```
 per visualizzare la mappa senza clustering.
 ### Mappa pointCloud ###
-<img src="screenshot/pointcloud_map.png" width="800">
+<img src="screenshots/pointcloud_map.png" width="800">
 
 
 Infine, per visualizzare la point-cloud, posizionandovi nella directory `homework3_ros`, lanciare il seguente comando:
@@ -46,7 +46,7 @@ Infine, per visualizzare la point-cloud, posizionandovi nella directory `homewor
 $ ./Cluster/build/cluster_extraction pointcloud.pcd
 ```
 ### Cluster ###
-<img src="screenshot/totalMap_point.png" width="800">
+<img src="screenshots/totalMap_point.png" width="800">
 Oppure
 
 
